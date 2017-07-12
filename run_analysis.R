@@ -6,6 +6,11 @@
 # 4. Appropriately labels the data set with descriptive variable names.
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+if( !file.exists("UCI HAR Dataset") ) {
+  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile = "data.zip")
+  unzip("data.zip")
+}
+
 data.features <- read.table("UCI HAR Dataset/features.txt", header = F, sep = " ")
 data.activity.labels <- read.table("UCI HAR Dataset/activity_labels.txt", header = F, sep = " ")
 
