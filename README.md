@@ -3,7 +3,6 @@ For creating a tidy data set of wearable computing data originally from http://a
  
 ## Files in this repository
 * README.md -- This document
-* CodeBook.md -- Codebook describing variables, the data and transformations
 * run_analysis.R -- R code for tidying data
  
 ## run_analysis.R goals
