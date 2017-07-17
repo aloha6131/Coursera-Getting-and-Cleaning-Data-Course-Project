@@ -1,6 +1,17 @@
 
 # Code Book
 
+## Section 1. Merges the training and the test sets to create one data set.
+Merge From Below Files:
+- features.txt
+- activity_labels.txt
+- subject_train.txt
+- x_train.txt
+- y_train.txt
+- subject_test.txt
+- x_test.txt
+- y_test.txt
+
 ## Subject and Activity
 
 These variables identify the unique subject/activity pair the variables relate to:
